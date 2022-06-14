@@ -10,7 +10,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* apply styles to <header> Header Begin*/
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -42,7 +42,8 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
-
+/* Header End */
+/*Footer Begin */
 footer {
   background: #fce138;
   width: 100%;
@@ -65,6 +66,7 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* Footer End */
 
 section {
   padding: 60px;
@@ -78,7 +80,6 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -120,7 +121,8 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
-
+/* Hero Style End */
+/* Article Begin */
 .intro {
   text-align: center;
 }
@@ -225,9 +227,7 @@ section {
 .text-right {
   text-align: right;
 }
-.section-title {
-  font-size
-}
+/* Article End */
 /* Reach out styles start*/
 .contact {
   text-align: center;
@@ -248,3 +248,19 @@ section {
   margin: 30px 0 0 60px;
   color: white;
 }
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+.contact-info a {
+  color: #fce138;
+}
+/*Reach Out Styles End */
+
+
