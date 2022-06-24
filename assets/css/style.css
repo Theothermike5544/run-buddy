@@ -387,12 +387,15 @@ section {
     text-align: center;
     width: 100%;
   }
+
   .hero-cta, .hero-form {
     width: 100%;
   }
+  
   .hero-cta {
     text-align: center;
   }
+
   .section-title {
     width: 80%;
   }
@@ -433,12 +436,10 @@ section {
   .step-text {
     flex: 100%;  
   }
-
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-
   .hero-form button {
     width: 100%;
   }
@@ -462,8 +463,8 @@ section {
   .contact-info > * {
     flex: 0 100%;
   }
+
   .contact-form {
     order: 3;
   }
 }
-
